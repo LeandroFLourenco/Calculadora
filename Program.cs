@@ -15,7 +15,7 @@ namespace Projeto_Cadastramento
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DTIFormPadrao());
+            Application.Run(new Calculadora());
         }
     }
 }
