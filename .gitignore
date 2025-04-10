@@ -1,0 +1,23 @@
+# Ignorar a pasta do Visual Studio
+.vs/
+
+# Pastas de build
+bin/
+obj/
+
+# Arquivos de usuário do Visual Studio
+*.user
+*.suo
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+*.bak
+
+# Arquivos de cache e configurações locais
+*.cache
+*.dbmdl
+*.local
+
+# Arquivos do VS Code (caso você use)
+.vscode/
