@@ -6,7 +6,8 @@ Projeto de uma calculadora simples feita em C# utilizando Windows Forms (.NET Fr
 
 ## 📸 Preview
 
-*(Adicione uma imagem ou gif do seu projeto rodando aqui, se quiser)*
+
+![image](https://github.com/user-attachments/assets/4e6765fe-c21f-43e2-97b4-90f77cbbe91f)
 
 ---
 
