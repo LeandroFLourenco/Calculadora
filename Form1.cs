@@ -28,11 +28,20 @@ namespace Projeto_Cadastramento
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnmais_Click(object sender, EventArgs e)
         {
             if (double.TryParse(tbConta.Text, out numAnterior))
             {
                 operacao = "+";
+
+            }
+        }
+
+        private void btnmenos_Click(object sender, EventArgs e)
+        {
+            if (double.TryParse(tbConta.Text, out numAnterior))
+            {
+                operacao = "-";
 
             }
         }
