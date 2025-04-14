@@ -28,7 +28,7 @@ namespace Projeto_Cadastramento
             }
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnmais_Click(object sender, EventArgs e)
         {
             if (double.TryParse(tbConta.Text, out numAnterior))
             {
@@ -37,6 +37,7 @@ namespace Projeto_Cadastramento
             }
         }
 
+<<<<<<< HEAD
         private void tbConta_Enter(object sender, EventArgs e)
         {
             if (tbConta.Text == "Conta")
@@ -67,5 +68,15 @@ namespace Projeto_Cadastramento
 
             // Se o TextBox ficar vazio, volta o placeholder (isso será tratado no Leave)
         }
+=======
+        private void btnmenos_Click(object sender, EventArgs e)
+        {
+            if (double.TryParse(tbConta.Text, out numAnterior))
+            {
+                operacao = "-";
+
+            }
+        }
+>>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
     }
 }
