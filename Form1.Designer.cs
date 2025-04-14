@@ -30,6 +30,25 @@
         {
             this.tbResultado = new System.Windows.Forms.TextBox();
             this.tbConta = new System.Windows.Forms.TextBox();
+<<<<<<< HEAD
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
+=======
             this.btn9 = new System.Windows.Forms.Button();
             this.btnigual = new System.Windows.Forms.Button();
             this.btnmais = new System.Windows.Forms.Button();
@@ -46,6 +65,7 @@
             this.btn0 = new System.Windows.Forms.Button();
             this.btnmultip = new System.Windows.Forms.Button();
             this.btndelete = new System.Windows.Forms.Button();
+>>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
             this.SuspendLayout();
             // 
             // tbResultado
@@ -67,6 +87,9 @@
             this.tbConta.Size = new System.Drawing.Size(238, 89);
             this.tbConta.TabIndex = 1;
             this.tbConta.Text = "Conta";
+            this.tbConta.TextChanged += new System.EventHandler(this.tbConta_TextChanged);
+            this.tbConta.Enter += new System.EventHandler(this.tbConta_Enter);
+            this.tbConta.Leave += new System.EventHandler(this.tbConta_Leave);
             // 
             // btn9
             // 
@@ -224,10 +247,48 @@
             this.btndelete.Text = "DEL";
             this.btndelete.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(134, 414);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(177, 55);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "Limpar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(317, 414);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(55, 55);
+            this.button17.TabIndex = 21;
+            this.button17.Text = "Salvar";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
+            this.ClientSize = new System.Drawing.Size(500, 501);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button15);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button13);
+            this.Controls.Add(this.button14);
+            this.Controls.Add(this.button16);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button12);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+=======
             this.ClientSize = new System.Drawing.Size(500, 489);
             this.Controls.Add(this.btndelete);
             this.Controls.Add(this.btnmultip);
@@ -245,6 +306,7 @@
             this.Controls.Add(this.btnmais);
             this.Controls.Add(this.btnigual);
             this.Controls.Add(this.btn9);
+>>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
             this.Controls.Add(this.tbConta);
             this.Controls.Add(this.tbResultado);
             this.Name = "Calculadora";
@@ -258,6 +320,25 @@
 
         private System.Windows.Forms.TextBox tbResultado;
         private System.Windows.Forms.TextBox tbConta;
+<<<<<<< HEAD
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button17;
+=======
         private System.Windows.Forms.Button btn9;
         private System.Windows.Forms.Button btnigual;
         private System.Windows.Forms.Button btnmais;
@@ -274,5 +355,6 @@
         private System.Windows.Forms.Button btn0;
         private System.Windows.Forms.Button btnmultip;
         private System.Windows.Forms.Button btndelete;
+>>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
     }
 }
