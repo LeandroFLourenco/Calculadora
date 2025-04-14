@@ -45,6 +45,8 @@
             this.button16 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button17 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // tbResultado
@@ -66,6 +68,9 @@
             this.tbConta.Size = new System.Drawing.Size(238, 89);
             this.tbConta.TabIndex = 1;
             this.tbConta.Text = "Conta";
+            this.tbConta.TextChanged += new System.EventHandler(this.tbConta_TextChanged);
+            this.tbConta.Enter += new System.EventHandler(this.tbConta_Enter);
+            this.tbConta.Leave += new System.EventHandler(this.tbConta_Leave);
             // 
             // button1
             // 
@@ -213,11 +218,31 @@
             this.button15.Text = "X";
             this.button15.UseVisualStyleBackColor = true;
             // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(134, 414);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(177, 55);
+            this.button4.TabIndex = 20;
+            this.button4.Text = "Limpar";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // button17
+            // 
+            this.button17.Location = new System.Drawing.Point(317, 414);
+            this.button17.Name = "button17";
+            this.button17.Size = new System.Drawing.Size(55, 55);
+            this.button17.TabIndex = 21;
+            this.button17.Text = "Salvar";
+            this.button17.UseVisualStyleBackColor = true;
+            // 
             // Calculadora
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(500, 450);
+            this.ClientSize = new System.Drawing.Size(500, 501);
+            this.Controls.Add(this.button17);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button15);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button13);
@@ -261,5 +286,7 @@
         private System.Windows.Forms.Button button16;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button17;
     }
 }

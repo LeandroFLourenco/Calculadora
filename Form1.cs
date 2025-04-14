@@ -36,5 +36,36 @@ namespace Projeto_Cadastramento
 
             }
         }
+
+        private void tbConta_Enter(object sender, EventArgs e)
+        {
+            if (tbConta.Text == "Conta")
+            {
+                tbConta.Text = "";
+                tbConta.ForeColor = Color.Black;  // texto normal
+            }
+        }
+
+        private void tbConta_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(tbConta.Text))
+            {
+                tbConta.Text = "Conta";
+                tbConta.ForeColor = Color.Gray;  // cor de placeholder
+            }
+        }
+
+        private void tbConta_TextChanged(object sender, EventArgs e)
+        {
+            // Se o texto for diferente de "conta" e o TextBox está cinza, limpa o placeholder
+            if (tbConta.ForeColor == Color.Gray && tbConta.Text != "Conta")
+            {
+                tbConta.ForeColor = Color.Black;
+                tbConta.Text = tbConta.Text.Substring(tbConta.Text.Length - 1);  // mantém só a tecla digitada
+                tbConta.SelectionStart = tbConta.Text.Length;  // posiciona o cursor no final
+            }
+
+            // Se o TextBox ficar vazio, volta o placeholder (isso será tratado no Leave)
+        }
     }
 }
