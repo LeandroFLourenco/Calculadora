@@ -30,7 +30,6 @@
         {
             this.tbResultado = new System.Windows.Forms.TextBox();
             this.tbConta = new System.Windows.Forms.TextBox();
-<<<<<<< HEAD
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -48,24 +47,6 @@
             this.button15 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button17 = new System.Windows.Forms.Button();
-=======
-            this.btn9 = new System.Windows.Forms.Button();
-            this.btnigual = new System.Windows.Forms.Button();
-            this.btnmais = new System.Windows.Forms.Button();
-            this.btnmenos = new System.Windows.Forms.Button();
-            this.btn6 = new System.Windows.Forms.Button();
-            this.btn7 = new System.Windows.Forms.Button();
-            this.btn8 = new System.Windows.Forms.Button();
-            this.btn3 = new System.Windows.Forms.Button();
-            this.btn4 = new System.Windows.Forms.Button();
-            this.btn5 = new System.Windows.Forms.Button();
-            this.btndivisao = new System.Windows.Forms.Button();
-            this.btn1 = new System.Windows.Forms.Button();
-            this.btn2 = new System.Windows.Forms.Button();
-            this.btn0 = new System.Windows.Forms.Button();
-            this.btnmultip = new System.Windows.Forms.Button();
-            this.btndelete = new System.Windows.Forms.Button();
->>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
             this.SuspendLayout();
             // 
             // tbResultado
@@ -269,7 +250,6 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(500, 501);
             this.Controls.Add(this.button17);
             this.Controls.Add(this.button4);
@@ -288,25 +268,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-=======
-            this.ClientSize = new System.Drawing.Size(500, 489);
-            this.Controls.Add(this.btndelete);
-            this.Controls.Add(this.btnmultip);
-            this.Controls.Add(this.btn0);
-            this.Controls.Add(this.btndivisao);
-            this.Controls.Add(this.btn1);
-            this.Controls.Add(this.btn2);
-            this.Controls.Add(this.btn3);
-            this.Controls.Add(this.btn4);
-            this.Controls.Add(this.btn5);
-            this.Controls.Add(this.btnmenos);
-            this.Controls.Add(this.btn6);
-            this.Controls.Add(this.btn7);
-            this.Controls.Add(this.btn8);
-            this.Controls.Add(this.btnmais);
-            this.Controls.Add(this.btnigual);
-            this.Controls.Add(this.btn9);
->>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
             this.Controls.Add(this.tbConta);
             this.Controls.Add(this.tbResultado);
             this.Name = "Calculadora";
@@ -320,7 +281,6 @@
 
         private System.Windows.Forms.TextBox tbResultado;
         private System.Windows.Forms.TextBox tbConta;
-<<<<<<< HEAD
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
@@ -338,23 +298,5 @@
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button17;
-=======
-        private System.Windows.Forms.Button btn9;
-        private System.Windows.Forms.Button btnigual;
-        private System.Windows.Forms.Button btnmais;
-        private System.Windows.Forms.Button btnmenos;
-        private System.Windows.Forms.Button btn6;
-        private System.Windows.Forms.Button btn7;
-        private System.Windows.Forms.Button btn8;
-        private System.Windows.Forms.Button btn3;
-        private System.Windows.Forms.Button btn4;
-        private System.Windows.Forms.Button btn5;
-        private System.Windows.Forms.Button btndivisao;
-        private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btn2;
-        private System.Windows.Forms.Button btn0;
-        private System.Windows.Forms.Button btnmultip;
-        private System.Windows.Forms.Button btndelete;
->>>>>>> 7ba6773806939fb3f40701c8ddb254e6f8cfd76c
     }
 }
