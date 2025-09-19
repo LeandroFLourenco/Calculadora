@@ -25,7 +25,7 @@ Projeto de uma calculadora simples feita em C# utilizando Windows Forms (.NET Fr
 
 ---
 
-## 🛠️ Como rodar o projeto
+## 🛠️ Como rodar o projeto.
 
 1. Clone o repositório:
 
